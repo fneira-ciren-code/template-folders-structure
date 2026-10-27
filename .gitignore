@@ -1,0 +1,38 @@
+# ==========================================
+# Entornos y Tiempos de Ejecución
+# ==========================================
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# R / renv
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.renv/library/
+.renv/python/
+.renv/staging/
+
+# Node / JavaScript
+node_modules/
+.npm/
+dist/
+.vite/
+
+# ==========================================
+# Datos y Salidas Sensibles / Pesadas
+# ==========================================
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+output/*
+!output/**/.gitkeep
+
+# Variables de entorno local
+.env
+.env.local

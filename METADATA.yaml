@@ -1,0 +1,24 @@
+---
+# Información Básica
+title: "Título del Documento"
+description: "Una breve descripción del contenido o propósito del archivo."
+author: "Nombre del Autor"
+date: 2026-10-08
+version: "1.0.0"
+status: "draft" # draft, published, archived
+
+# Clasificación y Metadata
+tags:
+  - yaml
+  - metadata
+  - estructura
+categories:
+  - Documentación
+  - Configuración
+
+# Parámetros Técnicos / Personalizados
+settings:
+  draft_mode: true
+  layout: default
+  locale: "es-CL"
+---

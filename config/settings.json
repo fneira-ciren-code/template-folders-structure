@@ -1,0 +1,14 @@
+{
+    "PROJECT_NAME": "RENOMBRAR_EL_PROYECTO!!!",
+    "PATHS": {
+        "DATA_RAW": "data/raw",
+        "DATA_INTERIM": "data/interim",
+        "DATA_PROCESSED": "data/processed",
+        "DOCUMENTS": "documents",
+        "NOTEBOOKS": "notebooks",
+        "TEMPLATES": "templates",
+        "TESTS": "tests",
+        "OUT_REPORTS": "output/reports",
+        "OUT_MODELS": "output/models"
+    }
+}
