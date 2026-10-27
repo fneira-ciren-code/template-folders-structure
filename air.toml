@@ -1,0 +1,7 @@
+# Air formatter configuration. Run: air format .
+# Conventions: see README.md
+
+[format]
+line-width = 80
+indent-width = 2
+indent-style = "space"

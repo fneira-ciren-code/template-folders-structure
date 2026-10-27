@@ -1,5 +1,12 @@
 linters: linters_with_defaults(
-  line_length_linter = line_length_linter(80),
-  object_name_linter = object_name_linter(styles = c("snake_case", "SCREAMING_SNAKE_CASE")),
-  commented_code_linter = NULL
-)
+  line_length_linter(80),
+  object_name_linter(styles = c("snake_case", "SNAKE_CASE")),
+  return_linter(return_style = "explicit"),
+  undesirable_function_linter(
+    fun = c(
+      attach = "use pkg::fun() or with()",
+      setwd = "use project-relative paths from config/config.yml"
+    )
+  )
+  )
+encoding: "UTF-8"
