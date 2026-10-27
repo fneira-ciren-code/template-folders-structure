@@ -1,3 +1,8 @@
+git remote add origin https://github.com/fneira-ciren-code/template-folders-structure.git
+git branch -M main
+git push -u origin main
+
+
 my-hybrid-project/
 ├── .git/
 ├── .gitignore               # Multi-language ignore (Python, R, JS/Node, OS)
